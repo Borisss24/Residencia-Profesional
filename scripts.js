@@ -66,7 +66,13 @@ function showContent(option) {
             content.innerHTML = "<h3>Respuesta a Pregunta Frecuente</h3><p>Aquí va la respuesta a la pregunta frecuente.</p>";
             break;
         case 'opcion2':
-            content.innerHTML = "<h3>Información de Contacto</h3><p>Aquí va la información de contacto.</p>";
+            content.innerHTML = "<h3>Contacto</h3><p>Oficina de Prácticas y Promoción Profesional
+
+                                Contacto: vin.promocion@toluca.tecnm.mx
+
+                                Teléfono: 722 208 72 40 o 722 208 72 00 ext. 2221
+
+                                Ubicación: Edificio K, cubículos 9 y 10.</p>";
             break;
         case 'opcion3':
             content.innerHTML = "<h3>Acerca de Residencias</h3><p>Aquí va la información sobre residencias.</p>";
