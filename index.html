@@ -111,23 +111,39 @@
             <h2 style="margin: 0;">Volti ChatBot</h2> <!-- Elimina el margen para evitar desplazamientos -->
             <span id="closeChatbot" style="cursor: pointer;">×</span>
         </div>
-        <div class="chatbot-body">
-            <ul>
-                <li>
-                    Opción 1: Pregunta Frecuente
-                </li>
-                <li>
-                    Opción 2: Información de Contacto
-                </li>
-                <li>
-                    Opción 3: Acerca de Residencias
-                </li>
-                <li>
-                    Opción 4: Reportar un Problema
-                </li>
-            </ul>
+        <div id="chatbotWindow" class="chatbot-window">
+    <div class="chatbot-header">
+        <img src="2.png" alt="Volti" class="chatbot-avatar-header">
+        <h2 style="margin: 0;">Volti ChatBot</h2>
+        <span id="closeChatbot" style="cursor: pointer;">×</span>
+    </div>
+    <div class="chatbot-body">
+        <ul>
+            <li data-content="faq">Opción 1: Pregunta Frecuente</li>
+            <li data-content="contact">Opción 2: Información de Contacto</li>
+            <li data-content="about">Opción 3: Acerca de Residencias</li>
+            <li data-content="report">Opción 4: Reportar un Problema</li>
+        </ul>
+        <div id="chatbotContent">
+            <div id="faq" class="chatbot-content-item active">
+                <h3>Preguntas Frecuentes</h3>
+                <p>Aquí puedes encontrar respuestas a preguntas comunes.</p>
+            </div>
+            <div id="contact" class="chatbot-content-item">
+                <h3>Información de Contacto</h3>
+                <p>Contáctanos a través de nuestro correo electrónico: contacto@ejemplo.com</p>
+            </div>
+            <div id="about" class="chatbot-content-item">
+                <h3>Acerca de Residencias</h3>
+                <p>Información sobre el proceso de residencias profesionales.</p>
+            </div>
+            <div id="report" class="chatbot-content-item">
+                <h3>Reportar un Problema</h3>
+                <p>Si tienes algún problema, por favor describe la situación aquí.</p>
+            </div>
         </div>
     </div>
+</div>
 
     <script src="scripts.js"></script>
 </body>
