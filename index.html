@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Residencias Profesionales</title>
+    <link rel="icon" href="descarga.png" sizes="32x32" type="image/x-icon" > <!-- Cambia la ruta -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <ul>
+                <li><a href="#">Conócenos</a></li>
+                <li><a href="#">Tramita tu Ficha</a></li>
+                <li><a href="#">Oferta Educativa</a></li>
+                <li><a href="#">Sistemas de Gestión</a></li>
+                <li><a href="#">Eventos</a></li>
+                <li><a href="#">TecNoticias</a></li>
+                <li><a href="#">Quejas/Sugerencias</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+        <h1>Residencias Profesionales</h1>
+        <p>Es una estrategia educativa de carácter curricular, que permite al estudiante emprender un proyecto teórico-práctico, analítico, reflexivo, crítico y profesional; para resolver un problema específico de la realidad social y productiva, para fortalecer y aplicar sus competencias profesionales.</p>
+
+        <h2>¿Cuánto tiempo debe durar una residencia profesional?</h2>
+        <p>Un período de 4 meses como tiempo mínimo y 6 meses como tiempo máximo, debiendo acumularse un mínimo de 500 horas.</p>
+
+        <h2>¿Qué requisitos debo cubrir para darme de alta?</h2>
+        <ul>
+            <li>Acreditación del Servicio Social.</li>
+            <li>Acreditación de actividades complementarias.</li>
+            <li>Tener aprobado al menos el 80% de créditos de su plan de estudios.</li>
+            <li>No contar con ninguna asignatura en condiciones de "curso especial".</li>
+        </ul>
+
+        <h2>¿Cómo me registro?</h2>
+        <p>Dirigirse al Coordinador de Carrera</p>
+        <p>El proyecto de Residencia Profesional puede realizarse de manera individual, grupal o interdisciplinaria; dependiendo de los requerimientos, condiciones y características del proyecto de la empresa, organismo o dependencia.</p>
+
+        <h2>Valor curricular</h2>
+        <p>El valor curricular de la residencia es de 10 créditos y se encuentra ubicada en el Noveno Semestre de la Carrera.</p>
+
+        <h2>Selección de proyectos</h2>
+        <p>A través de banco de proyectos: Selección en un banco de proyectos de Residencias Profesionales relativos a su carrera o interdisciplinarios, integradores o de educación continua.</p>
+        
+        <!-- Sección de pasos -->
+        <div class="tab-container">
+            <div class="tabs">
+                <a href="#" class="tab active" data-tab="step1">Paso 1</a>
+                <a href="#" class="tab" data-tab="step2">Paso 2</a>
+                <a href="#" class="tab" data-tab="step3">Paso 3</a>
+                <a href="#" class="tab" data-tab="step4">Paso 4</a>
+                <a href="#" class="tab" data-tab="step5">Paso 5</a>
+            </div>
+            <div class="tab-content">
+                <div id="step1" class="tab-item active">
+                    <h3>Revisión de Requisitos</h3>
+                    <p>Consulta los requisitos y verifica que cumples con todos los criterios necesarios para iniciar tu residencia profesional.</p>
+                    <a href="documentos/requisitos.pdf" class="download" download>
+                        <img src="imagenes/requisitos.png" alt="(Descargar Requisitos)" > <!-- Ajusta el tamaño según necesites -->
+                    </a>
+                </div>
+                <div id="step2" class="tab-item">
+                    <h3>Inscripción en el Proceso</h3>
+                    <p>Completa el formulario de inscripción y entrega los documentos solicitados en la coordinación de residencias.</p>
+                    <a href="documentos/inscripcion.pdf" class="download" download>
+                        <img src="imagenes/inscripcion.png" alt="(Descargar Formulario de Inscripción)" >
+                    </a>
+                </div>
+                <div id="step3" class="tab-item">
+                    <h3>Asignación de Asesor</h3>
+                    <p>Una vez aprobada tu inscripción, se te asignará un asesor académico para guiarte en tu proyecto.</p>
+                    <a href="documentos/asesor.pdf" class="download" download>
+                        <img src="imagenes/asesor.png" alt="(Descargar Información del Asesor)" >
+                    </a>
+                </div>
+                <div id="step4" class="tab-item">
+                    <h3>Desarrollo del Proyecto</h3>
+                    <p>Desarrolla tu proyecto de residencia con la supervisión de tu asesor y de acuerdo a los lineamientos establecidos.</p>
+                    <a href="documentos/desarrollo.pdf" class="download" download>
+                        <img src="imagenes/desarrollo.png" alt="(Descargar Guía de Desarrollo)" >
+                    </a>
+                </div>
+                <div id="step5" class="tab-item">
+                    <h3>Evaluación Final</h3>
+                    <p>Presenta tu informe final y defiende tu proyecto ante un jurado evaluador.</p>
+                    <a href="documentos/evaluacion.pdf" class="download" download>
+                        <img src="imagenes/evaluacion.png" alt="(Descargar Lineamientos de Evaluación)" >
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+
+    <!-- Contenedor del avatar y el mensaje de ayuda -->
+    <div class="chatbot-trigger" id="chatbotTrigger">
+        <div class="chatbot-avatar">
+            <img src="2.png" alt="Volti"> <!-- Esta parte se mantiene igual -->
+        </div>
+        <p>¿Ayuda?</p>
+    </div>
+    <!-- Ventana del Chatbot -->
+    <div id="chatbotWindow" class="chatbot-window">
+        <div class="chatbot-header">
+            <img src="2.png" alt="Volti" class="chatbot-avatar-header">
+            <h2 style="margin: 0;">Volti ChatBot</h2> <!-- Elimina el margen para evitar desplazamientos -->
+            <span id="closeChatbot" style="cursor: pointer;">×</span>
+        </div>
+        <div class="chatbot-body">
+            <ul>
+                <li>
+                    Opción 1: Pregunta Frecuente
+                </li>
+                <li>
+                    Opción 2: Información de Contacto
+                </li>
+                <li>
+                    Opción 3: Acerca de Residencias
+                </li>
+                <li>
+                    Opción 4: Reportar un Problema
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
